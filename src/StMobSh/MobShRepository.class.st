@@ -14,6 +14,13 @@ MobShRepository class >> forRepoNamed: aString [
 		yourself.
 ]
 
+{ #category : #accessing }
+MobShRepository class >> on: aFileReference [
+	^ self new
+		repository:  (GtIceGitRepository on: aFileReference);
+		yourself.
+]
+
 { #category : #testing }
 MobShRepository >> hasUncommitedChanges [
 	^ (self repository
