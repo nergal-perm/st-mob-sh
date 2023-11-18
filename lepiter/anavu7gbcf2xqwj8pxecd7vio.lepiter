@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T09:19:48.571524+03:00"
+						"dateAndTimeString" : "2023-11-18T22:04:35.45868+03:00"
 					}
 				},
 				"uid" : {
@@ -113,149 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Первым делом попробую создать экземпляр {{gtClass:name=MobShRepository}} на базе временной директории:"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T09:19:52.211064+03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T10:04:05.369915+03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "PsVK+sjGDQCX8QhoBXHYsw=="
-				},
-				"code" : "MobShRepository on: GtTemporaryDirectory new"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T09:28:45.727661+03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:06:19.283723+03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "zHnt8MjGDQCOsm3kBXHYsw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Создается нормально, так что теперь буду пробовать создавать примеры в {{gtClass:name=MobShRepositoryExamples}}. Первым вспомогательным методом будет создание и инициализация пустого тестового репозитория"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T11:07:04.144128+03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T11:07:24.569515+03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "mcZV8MjGDQCOsRwABXHYsw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Выяснилось, что временные директории как-то неспособны работать с репозиториями."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T11:09:33.539916+03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T11:13:54.12928+03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "FEWRgsrGDQCm9jTxBXHYsw=="
-				},
-				"code" : "lgRepo := LGitRepository on: GtTemporaryDirectory new reference.\rlgRepo initBare: true.\rlgRepo"
+				"string" : "Первым делом попробую создать репозиторий на базе временной директории:"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -282,14 +140,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:13:31.417019+03:00"
+						"dateAndTimeString" : "2023-11-18T22:20:35.537095+03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "YvVFj8rGDQCoqRl1BXHYsw=="
 				},
-				"code" : "inMemory := LGitRepository on: (FileSystem memory ensureCreateDirectory: 'remote') / 'remote'.\rinMemory initBare: true."
+				"code" : "inMemory := GtIceGitRepository on: GtTemporaryDirectory new reference.\r\"Почему-то из скрипта временная папка на диске не создается, но если вручную выполнить эту одну команду, то все в порядке\"\rinMemory location ensureCreateDirectory.\rinMemory\r\tinitBare: true;\r\trunGitWithArgs: {'symbolic-ref'.\r\t\t\t'HEAD'.\r\t\t\t'refs/heads/master'};\r\trunGitWithArgs: {'config'.\r\t\t\t'--local'.\r\t\t\t'status.branch'.\r\t\t\t'true'};\r\tname: 'remoteRepo';\r\tyourself"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -316,14 +174,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:49:16.624473+03:00"
+						"dateAndTimeString" : "2023-11-18T21:55:46.825581+03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "+x5/FM3GDQC0BRh1BXHYsw=="
 				},
-				"code" : "'pull' gtSubstringMatch"
+				"code" : "GtIceGitRepository allInstances do: [ :repo | repo forget ].\rinMemory := nil.\rSmalltalk garbageCollect.\rSmalltalk garbageCollect.\rSmalltalk garbageCollect.\rGtIceGitRepository allInstances "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -339,7 +197,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:21:02.734433+03:00"
+						"dateAndTimeString" : "2023-11-18T22:06:28.715562+03:00"
 					}
 				},
 				"editEmail" : {
@@ -350,48 +208,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:21:26.944851+03:00"
+						"dateAndTimeString" : "2023-11-18T22:13:38.605364+03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "8TRhL83GDQC1TjJEBXHYsw=="
+					"uidString" : "r9zlr9PGDQC4fXoRCKheYg=="
 				},
-				"code" : "GtGitRepository forRepoNamed: 'st-mob-sh'"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:41:14.409419+03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:41:14.409419+03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "GueZd83GDQC4uMz4BXHYsw=="
-				},
-				"code" : ""
+				"code" : "local := GtIceGitRepository on: GtTemporaryDirectory new reference / 'local'.\rlocal location ensureCreateDirectory.\rlocal runGitWithArgs: {'clone' . '--origin' . 'origin' . 'file://' , inMemory location asString . '.'}.\rlocal"
 			}
 		]
 	},
