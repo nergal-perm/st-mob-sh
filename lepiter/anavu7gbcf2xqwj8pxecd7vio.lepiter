@@ -316,14 +316,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:21:02.333311+03:00"
+						"dateAndTimeString" : "2023-11-18T14:49:16.624473+03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "+x5/FM3GDQC0BRh1BXHYsw=="
 				},
-				"code" : "'Discard image changes' gtSubstringMatch"
+				"code" : "'pull' gtSubstringMatch"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -358,40 +358,6 @@
 					"uidString" : "8TRhL83GDQC1TjJEBXHYsw=="
 				},
 				"code" : "GtGitRepository forRepoNamed: 'st-mob-sh'"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:38:49.364654+03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T14:41:14.13968+03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "e7D0bs3GDQC2zaK+BXHYsw=="
-				},
-				"code" : "IceTipRepairAction allAvailableFor: (GtGitRepository forRepoNamed: 'st-mob-sh') icebergRepository"
 			},
 			{
 				"__type" : "pharoSnippet",

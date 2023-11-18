@@ -126,6 +126,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T21:17:11.61873+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T21:17:47.835102+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Oiak/9LGDQC6qQJOCKheYg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Еще один момент, важный для проверки концепции - это возможность переключаться на новую ветку и получить все обновления из нее в образ. Опытным путем установил, что это м"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2023-11-18T07:55:29.680575+03:00"
 					}
 				},
@@ -211,14 +248,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T08:33:20.666757+03:00"
+						"dateAndTimeString" : "2023-11-18T08:33:26.875728+03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "bP1v1cfGDQC4fehWBXHYsw=="
 				},
-				"code" : "MobShRepository for"
+				"code" : "MobShRepository forRepoNamed: 'st-mob-sh'"
 			}
 		]
 	},

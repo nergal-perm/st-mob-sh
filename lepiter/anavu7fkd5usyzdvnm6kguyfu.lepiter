@@ -126,6 +126,77 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T21:17:11.61873+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T21:17:56.88769+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Oiak/9LGDQC6qQJOCKheYg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Еще один момент, важный для проверки концепции - это возможность переключаться на новую ветку и получить все обновления из нее в образ. Опытным путем установил, что это можно сделать с помощью следующего кода:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T21:17:59.594286+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T21:18:01.129532+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vzGAAtPGDQC/H2IdCKheYg=="
+				},
+				"code" : "iceRepo := (GtGitRepository forRepoNamed: 'st-mob-sh') icebergRepository.\riceRepo checkoutBranch: 'master'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2023-11-18T07:55:29.680575+03:00"
 					}
 				},
