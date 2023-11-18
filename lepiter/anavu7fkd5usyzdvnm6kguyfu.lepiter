@@ -1,0 +1,255 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T07:44:33.99543+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T07:45:33.503998+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "apoPpcfGDQCorL55BXHYsw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Нужно попробовать вызывать git-команды напрямую или сначала получить какой-то объект, вроде репозитория (это, кстати, даст возможность не проверять разные штуки, вроде правильной папки, из которой запускаются скрипты)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T07:45:44.474124+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T08:30:43.360034+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+j6pqcfGDQCtaBVbBXHYsw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Для начала попробую получить объект репозитория. Оказалось довольно сложно, потому что нужно как-то добраться до объекта класса {{gtClass:name=GtIceGitRepository}}, так как только он умеет выполнять git-команды:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T08:21:34.16442+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T08:31:55.970442+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "McbKKcjGDQC9h4RcBXHYsw=="
+				},
+				"code" : "gtRepo := GtGitRepository forRepoNamed: 'st-mob-sh'.\riceRepo := GtIceGitRepository on: gtRepo icebergRepository repositoryDirectory.\riceRepo runGitWithArgs: {'status'.'--porcelain'}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T07:55:29.680575+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T07:57:01.232895+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ZmgdpMfGDQCoq5o3BXHYsw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "В целом, такое ощущение, что мне нужно будет либо написать обертку над {{gtClass:name=GtGitRepository}}, либо расширить поведение текущего класса. Обертка выглядит предпочтительнее, так как позволит в интерфейс вывести именно те штуки, которые нужны для работы mob.sh."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T08:32:56.56623+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T08:33:04.884623+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "J0wO0sfGDQC4IuPEBXHYsw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Обертку попробую создать вот таким образом:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T07:57:58.920913+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-11-18T08:33:26.875728+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "bP1v1cfGDQC4fehWBXHYsw=="
+				},
+				"code" : "MobShRepository forRepoNamed: 'st-mob-sh'"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-11-18T07:44:11.315387+03:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-11-18T07:44:27.260031+03:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Взаимодействие с Git"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "dac91ba4-c7c6-0d00-a8aa-7d320571d8b3"
+	}
+}
